@@ -1,0 +1,13 @@
+{
+  "name": "gh-fmcsa-processor",
+  "version": "1.0.0",
+  "description": "GitHub Actions friendly FMCAS processor (free public repo)",
+  "main": "gh_processor.js",
+  "scripts": {
+    "start": "node gh_processor.js --concurrency=4 --delay=300"
+  },
+  "dependencies": {
+    "node-fetch": "2.6.7",
+    "minimist": "1.2.8"
+  }
+}
